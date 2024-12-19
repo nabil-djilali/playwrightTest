@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e4eae960-d855-44d7-8caa-47841aca9779" name="Nabil@DESKTOP-457N6RQ 2024-12-08 16:31:13" runUser="DESKTOP-457N6RQ\Nabil" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-12-08T16:31:13.8327945+01:00" queuing="2024-12-08T16:31:13.8327953+01:00" start="2024-12-08T16:30:45.2241719+01:00" finish="2024-12-08T16:31:13.8501937+01:00" />
+  <TestSettings name="default" id="5f2b6498-c159-480b-b39f-55b934479320">
+    <Deployment runDeploymentRoot="Nabil_DESKTOP-457N6RQ_2024-12-08_16_31_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="232e47e1-4685-4a51-b494-176a5700d05e" testId="a0554272-b369-1a90-7dfa-90f9afa3d72a" testName="CounterPageIncrementsCounterWhenButtonClicked" computerName="DESKTOP-457N6RQ" duration="00:00:17.2774240" startTime="2024-12-08T16:30:56.1738993+01:00" endTime="2024-12-08T16:31:13.4511886+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="232e47e1-4685-4a51-b494-176a5700d05e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CounterPageIncrementsCounterWhenButtonClicked" storage="e:\c#\courses\playwright\playwright.tests\bin\debug\net9.0\playwright.tests.dll" id="a0554272-b369-1a90-7dfa-90f9afa3d72a">
+      <Execution id="232e47e1-4685-4a51-b494-176a5700d05e" />
+      <TestMethod codeBase="E:\C#\Courses\playwright\playwright.Tests\bin\Debug\net9.0\playwright.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="playwright.Tests.CounterTests" name="CounterPageIncrementsCounterWhenButtonClicked" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a0554272-b369-1a90-7dfa-90f9afa3d72a" executionId="232e47e1-4685-4a51-b494-176a5700d05e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in E:\C#\Courses\playwright\playwright.Tests\bin\Debug\net9.0\playwright.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

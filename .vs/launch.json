@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Start Blazor and Run Tests",
+        "type": "shell",
+        "command": "dotnet run --project \"E:\\C#\\Courses\\playwright\\playwright.Client\"",
+        "cwd": "${workspaceFolder}",
+        "background": true
+      },
+      {
+        "name": ".NET Core Launch Tests",
+        "type": "coreclr",
+        "preLaunchTask": "start-blazor",
+        "program": "${workspaceFolder}/playwright.Tests/bin/Debug/net8.0/playwright.Tests.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/playwright.Tests"
+      }
+    ]
+  }
+  
